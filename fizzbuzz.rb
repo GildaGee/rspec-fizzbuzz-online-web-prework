@@ -9,7 +9,7 @@ def fizzbuzz(int)
   return "Fizz"
 elsif buzz
   return "Buzz"
-elsif fizz&&buzz 
+elsif fizz && buzz 
   return "FizzBuzz"
 else
   return nil
