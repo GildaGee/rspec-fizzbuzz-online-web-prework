@@ -6,12 +6,12 @@ def fizzbuzz(int)
  fizz = int % 3 == 0 
  buzz = int % 5 == 0 
  
- if fizz
-  return "Fizz"
+ if fizz and buzz
+  return "FizzBuzz"
 elsif buzz
   return "Buzz"
-elsif fizz and buzz 
-  return "FizzBuzz"
+elsif fizz 
+  return "Fizz"
 else
   return nil
   
