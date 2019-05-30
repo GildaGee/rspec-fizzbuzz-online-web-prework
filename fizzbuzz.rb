@@ -12,7 +12,7 @@ elsif buzz
 elsif fizz&&buzz 
   return "FizzBuzz"
 else
-  return ""
+  return nil
   
  end 
 end
