@@ -2,19 +2,9 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(int)
-  if int % 3 == 0 
-    puts "Fizz"
-  
-  elsif 
-  int % 5 == 0 
-  puts "Buzz"
-  
-  elsif 
-  int % 5*3 == 0 
-  puts "FizzBuzz"
-  
-else 
-  puts ''
-    
+ fizz = int % 3 == 0 
+ buzz = int % 5 == 0 
+ 
+ 
  end 
 end
