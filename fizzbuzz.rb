@@ -9,7 +9,7 @@ def fizzbuzz(int)
    puts "Fizz"
   elsif buzz
   puts "Buzz"
-  elsif buzz&&fizz
+  elsif fizz&&buzz 
   puts "FizzBuzz"
 else
   puts ""
