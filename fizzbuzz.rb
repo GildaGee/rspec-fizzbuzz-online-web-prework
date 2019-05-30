@@ -7,9 +7,9 @@ def fizzbuzz(int)
  
  if fizzz
   return "Fizz"
-  elsif buzz
+elsif buzz
   return "Buzz"
-  elsif fizz&&buzz 
+elsif fizz&&buzz 
   return "FizzBuzz"
 else
   return ""
